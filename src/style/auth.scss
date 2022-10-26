@@ -1,0 +1,41 @@
+.auth-page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: calc(100vh - 114.5px);
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-column {
+    background-size: cover;
+  }
+
+  .right-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $black;
+
+    .auth-form-wrapper {
+      @include base-grid();
+      @include input-element();
+      padding: 42px;
+      grid-gap: 21px;
+
+      .form-group {
+        display: flex;
+        width: 33vw;
+
+        svg {
+          font-size: 2em;
+          padding: 15px;
+          color: $blue;
+        }
+      }
+    }
+  }
+}

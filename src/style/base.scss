@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+  font-family: 'Roboto Slab', serif;
+  // background-color: $offWhite;
+  background-color: $black;
+  color: $babyBlue;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+img {
+  width: 100%;
+}
+
+#dz {
+  color: $black;
+}

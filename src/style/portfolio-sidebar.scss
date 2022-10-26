@@ -1,0 +1,50 @@
+.portfolio-sidebar-list-wrapper {
+  .portfolio-item-thumb {
+    padding: 21px;
+
+    .portfolio-item-thumb-img img {
+      width: 100%;
+    }
+
+    .text-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 12px 0 12px;
+
+      .title {
+        color: $blue;
+        font-size: 1.5em;
+      }
+
+      .actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+
+        .edit-icon {
+          cursor: pointer;
+          color: $babyBlue;
+          font-size: 1.2em;
+          transition: .4s ease-in-out;
+
+          &:hover {
+            color: rgb(255, 233, 63);
+          }
+
+        }
+
+        .delete-icon {
+          cursor: pointer;
+          color: $babyBlue;
+          font-size: 1.2em;
+          transition: .4s ease-in-out;
+
+          &:hover {
+            color: rgb(255, 55, 55);
+          }
+        }
+      }
+    }
+  }
+}

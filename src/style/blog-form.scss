@@ -1,0 +1,30 @@
+.blog-form-wrapper {
+  @include base-grid();
+  grid-template-columns: 1fr;
+  padding: 42px;
+
+  @include input-element();
+
+  input {
+    margin-bottom: 0px;
+  }
+
+  select {
+    @include input-element();
+  }
+
+  .blog-btn {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: $blue;
+    font-size: 1.3rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    width: 120px;
+  }
+
+  .image-uploaders {
+    @include base-grid();
+    grid-template-columns: 200px;
+  }
+}
