@@ -45,6 +45,8 @@ export default class Contact extends Component {
               </div>
             </div>
 
+            <div className="message-socials">Connect with me!</div>
+
             <div className="social-links">
               <div className="brand-icon">
                 <a href="https://www.linkedin.com/in/parker-nelson-27a819241/" target="_blank">

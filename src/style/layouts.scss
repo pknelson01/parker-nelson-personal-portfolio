@@ -62,17 +62,30 @@
 
 }
 
+.message-socials {
+  margin-top: 15px;
+  font-size: .8em;
+  color: $blue;
+}
+
 .social-links {
   display: flex;
   grid-gap: 21px;
-  margin-top: 25px;
+  margin-top: 5px;
   justify-content: center;
   align-items: center;
 
   .brand-icon {
+
     a {
       font-size: 2em;
       color: $blue;
+      transition: .5s ease-in-out;
+
+      &:hover {
+        color: $babyBlue;
+        cursor: pointer;
+      }
     }
   }
 }
