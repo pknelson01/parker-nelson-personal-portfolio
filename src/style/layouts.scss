@@ -14,7 +14,6 @@
 
     img {
       width: 90%;
-      padding-bottom: 50px;
     }
   }
 
@@ -61,16 +60,19 @@
 
   }
 
-  .social-links {
-    display: flex;
-    grid-gap: 21px;
-    margin-left: 20px;
+}
 
-    .brand-icon {
-      a {
-        font-size: 2em;
-        color: $blue;
-      }
+.social-links {
+  display: flex;
+  grid-gap: 21px;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+
+  .brand-icon {
+    a {
+      font-size: 2em;
+      color: $blue;
     }
   }
 }

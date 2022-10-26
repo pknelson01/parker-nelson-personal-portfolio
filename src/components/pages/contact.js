@@ -34,7 +34,7 @@ export default class Contact extends Component {
                 <div className="icon">
                   <FontAwesomeIcon icon="square-envelope" />
                 </div>
-                <div className="text">pk.dev@gmail.com</div>
+                <div className="text">pk.fullstackdev@gmail.com</div>
               </div>
 
               <div className="bullet-points">
@@ -45,22 +45,22 @@ export default class Contact extends Component {
               </div>
             </div>
 
-          </div>
-          <div className="social-links">
-            <div className="brand-icon">
-              <a>
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
-            </div>
-            <div className="brand-icon">
-              <a>
-                <FontAwesomeIcon icon={faSquareTwitter} />
-              </a>
-            </div>
-            <div className="brand-icon">
-              <a>
-                <FontAwesomeIcon icon={faSquareGithub} />
-              </a>
+            <div className="social-links">
+              <div className="brand-icon">
+                <a href="https://www.linkedin.com/in/parker-nelson-27a819241/" target="_blank">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+              </div>
+              <div className="brand-icon">
+                <a href="https://twitter.com/parkernelsondev" target="_blank">
+                  <FontAwesomeIcon icon={faSquareTwitter} />
+                </a>
+              </div>
+              <div className="brand-icon">
+                <a href="https://github.com/pknelson01" target="_blank">
+                  <FontAwesomeIcon icon={faSquareGithub} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
